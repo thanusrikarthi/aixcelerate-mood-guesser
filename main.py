@@ -26,8 +26,8 @@ def count_moods(data):
     return happy, sad
 print("Mood Count:", count_moods(train_data))
 
-happy_words = ["won", "excited", "surprise", "tasty"]
-sad_words = ["lost", "failed", "lonely", "upset"]
+happy_words = ["won", "excited", "surprise", "tasty", "cheerful"]
+sad_words = ["lost", "failed", "lonely", "upset", "depressed"]
 
 def guess(sentence):
     sentence = sentence.lower()
