@@ -17,7 +17,7 @@ train_data = [
 ]
 def count_moods(data):
     happy = 0
-    sad = 0
+    sad = 1
     for sentence, mood in data:
         if mood == "Happy":
             happy = happy + 1
